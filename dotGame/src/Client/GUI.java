@@ -83,7 +83,6 @@ public class GUI implements ActionListener, Constantes{
         while (true){
             //dot.move();
             moveDot();
-            System.out.println("Dont x: "+ dot.currentPosition[X]+" Dot y: "+dot.currentPosition[Y]);
             try {
                 Thread.sleep(1000);
             } catch (Exception e) {

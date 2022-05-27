@@ -69,7 +69,6 @@ public class GUI implements ActionListener, Constantes{
             try {
                 client = new Socket("127.0.0.1", 4445);
                 output = new ObjectOutputStream(client.getOutputStream());
-                System.out.println("Dont x: "+ dot.currentPosition[X]+" Dot y: "+dot.currentPosition[Y]);
                 output.writeObject(dot);
                 output.flush();
                 output.close();

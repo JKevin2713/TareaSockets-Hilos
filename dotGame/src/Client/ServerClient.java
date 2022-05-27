@@ -30,9 +30,6 @@ public class ServerClient implements Runnable{
                 dot.currentPosition[1] = dotTemp.currentPosition[1];
                 dot.lastPosition[0] = dotTemp.lastPosition[0];
                 dot.lastPosition[1] = dotTemp.lastPosition[1];
-                System.out.println("Dont x: "+ dot.currentPosition[0]+" Dot y: "+dot.currentPosition[1]);
-                //dot.currentPosition[X] = dot.target.coords[X];
-                //dot.currentPosition[Y] = dot.target.coords[Y];
                 input.close();
                 client.close();
             }
